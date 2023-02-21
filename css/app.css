@@ -1,0 +1,36 @@
+.remove {
+    color: red;
+}
+li{
+    color: rgb(33, 13, 79);
+}
+.done {
+    text-decoration: line-through;
+}
+.remove{
+    margin-left: 5px;
+    border:1px solid rgb(149, 75, 75);
+    border-radius: 10px;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+
+
+}
+.botton{
+    background-color: rgb(176, 51, 187);
+    border: 1px soldi (176, 51, 187);
+    border-radius: 4px;
+
+}
+.aggiungi{
+    color: aquamarine;
+    border: 1px soldi aquamarine;
+}
+.title{
+    color: blueviolet;
+}
+#app{
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
