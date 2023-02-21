@@ -24,6 +24,9 @@ createApp({
             const index = this.todos.indexOf(todo)
             this.todos.splice(index, 1)
         },
+        toggleDone(todo) {
+            todo.done = !todo.done
+        },
     },
 }).mount('#app')
 

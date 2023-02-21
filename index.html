@@ -18,8 +18,9 @@
         <h1 class="title">Todo list</h1>
         <ul>
             <!-- LISTA DI OGGETTI CON LA POSSIBILITA DI RIMOZIONE  DEGLI OGGETTI ATTRAVERSO @CLICK  -->
+            <!-- E CON CLICK SUL NOSTRO OGGETTO V-ON:CLICK E UNA CONDIZIONE CHE INVERTE LA CONTRASSEGNAZIONE -->
             <li v-for="todo in todos" :key="todo.text">
-                <span :class="{ done: todo.done }">{{ todo.text }}</span>
+                <span :class="{ done: todo.done }" v-on:click="toggleDone(todo)">{{ todo.text }}</span>
                 <span class="remove" @click="removeTodo(todo)">x</span>
             </li>
         </ul>
