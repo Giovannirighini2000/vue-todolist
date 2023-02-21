@@ -18,11 +18,13 @@ createApp({
         // PUSH DI UN OGGETTO NUOVO NON CONTRASSEGNATO FATTO CON ATTRAVERSI IMPUT BOTTON AGGIUNGI
         addTodo() {
             this.todos.push({ text: this.inputValue, done: false })
+            this.inputValue =''
         },
         // VADO A RIMUOVERE AL CLICK DELLA X L'OGGETTO
         removeTodo(todo) {
             const index = this.todos.indexOf(todo)
             this.todos.splice(index, 1)
+
         },
         // CON L'OPERATORE DI NEGAZIONE INVERTO IL VERO O FALSO 
         toggleDone(todo) {
