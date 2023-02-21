@@ -33,4 +33,8 @@ li{
 #app{
     border: 1px solid blueviolet;
     padding: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHmyh2sFOW63zwwb3Y6mUDVia25auoBUP9OQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-position: -52px;
+    background-size: 34%;
 }
