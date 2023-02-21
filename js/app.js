@@ -24,6 +24,7 @@ createApp({
             const index = this.todos.indexOf(todo)
             this.todos.splice(index, 1)
         },
+        // CON L'OPERATORE DI NEGAZIONE INVERTO IL VERO O FALSO 
         toggleDone(todo) {
             todo.done = !todo.done
         },
